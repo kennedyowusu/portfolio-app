@@ -9,6 +9,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Testimonials from "./components/Testimonials"
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState('home')
@@ -60,6 +61,7 @@ function App() {
       <div className="w-5/6 mx-auto md:h-full">
         <Contact />
       </div>
+      <Footer />
     </div>
   )
 }
