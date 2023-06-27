@@ -3,7 +3,7 @@ import Divider from "./Divider";
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="pt-32 pb-16">
+    <section id="testimonials" className="py-24">
       {/* HEADING */}
       <motion.div
         className="md:w-1/3 text-center md:text-left"
