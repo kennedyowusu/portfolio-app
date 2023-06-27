@@ -3,6 +3,7 @@ import useMediaQuery from "./hooks/useMediaQuery"
 import Navbar from "./components/Navbar";
 import DotGroup from "./components/DotGroup";
 import HeroSection from "./components/HeroSection";
+import LineGradient from "./components/GradientSection";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState('home')
@@ -38,6 +39,7 @@ function App() {
         }
         <HeroSection setIsTopOfPage={setSelectedPage} />
       </div>
+      <LineGradient />
     </div>
   )
 }
