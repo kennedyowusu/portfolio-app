@@ -48,7 +48,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             <div className='flex justify-end pt-8 pr-8'>
               <button
                 className='rounded-full border-2 p-2 bg-none w-10 h-10'
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
+                onClick={handleIsMenuOpenClick}
               >
                 <img src={CloseIcon} alt='menu-icon' />
               </button>
