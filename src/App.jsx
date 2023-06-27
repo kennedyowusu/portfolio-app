@@ -7,6 +7,7 @@ import HeroSection from "./components/HeroSection";
 import Divider from "./components/Divider";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Testimonials from "./components/Testimonials"
 
 function App() {
   const [selectedPage, setSelectedPage] = useState('home')
@@ -48,7 +49,11 @@ function App() {
       </div>
       <Divider />
       <div className="w-5/6 mx-auto">
-      <Projects />
+        <Projects />
+      </div>
+      <Divider />
+      <div className="w-5/6 mx-auto md:h-full">
+        <Testimonials />
       </div>
     </div>
   )
