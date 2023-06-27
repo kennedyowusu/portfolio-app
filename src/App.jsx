@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import useMediaQuery from "./hooks/useMediaQuery"
 import Navbar from "./components/Navbar";
 import DotGroup from "./components/DotGroup";
-import LandingPage from "./components/LandingPage";
+import HeroSection from "./components/HeroSection";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState('home')
@@ -36,7 +36,7 @@ function App() {
             <DotGroup selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
           )
         }
-        <LandingPage setIsTopOfPage={setSelectedPage} />
+        <HeroSection setIsTopOfPage={setSelectedPage} />
       </div>
     </div>
   )
