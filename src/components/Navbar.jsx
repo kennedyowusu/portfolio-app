@@ -10,7 +10,7 @@ const navNames = ['Home', 'Skills', 'Projects', 'Testimonials', 'Contact']
 
 const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const navbarBackground = isTopOfPage ? 'bg-transparent' : 'bg-white'
+  const navbarBackground = isTopOfPage ? 'bg-transparent' : 'bg-red'
 
   const isAboveSmallScreen = useMediaQuery('(min-width: 768px)')
 
