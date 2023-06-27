@@ -5,8 +5,24 @@ import PropTypes from 'prop-types'
 import NavLinks from '../helper/Links'
 import MenuIcon from '../assets/menu-icon.svg'
 import CloseIcon from '../assets/close-icon.svg'
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const navNames = ['Home', 'Skills', 'Projects', 'Testimonials', 'Contact']
+
+const Link = ({ page, selectedPage, setSelectedPage }) => {
+  const lowerCasePage = page.toLowerCase();
+  return (
+    <AnchorLink
+      className={`${
+        selectedPage === lowerCasePage ? "text-yellow" : ""
+      } hover:text-yellow transition duration-500`}
+      href={`#${lowerCasePage}`}
+      onClick={() => setSelectedPage(lowerCasePage)}
+    >
+      {page}
+    </AnchorLink>
+  );
+};
 
 const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -23,52 +39,82 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
       <div className='container mx-auto flex justify-between items-center w-5/6'>
         <h4 className='font-playfair text-3xl font-bold'>K.O</h4>
 
-        {/* DESKTOP NAV */}
-        {isAboveSmallScreen ? (
-          <div className='flex justify-between gap-16 font-opensans text-sm font-semibold'>
-            {navNames.map((page, index) => (
-              <NavLinks
-                key={index}
-                page={page}
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
-            ))}
+        {
+          isAboveSmallScreen ? (
+          <div className="flex justify-between gap-16 font-opensans text-sm font-semibold">
+            <Link
+              page="Home"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+            <Link
+              page="Skills"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+            <Link
+              page="Projects"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+            <Link
+              page="Testimonials"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+            <Link
+              page="Contact"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
           </div>
         ) : (
           <button
-            className='rounded-full border-2 p-2 bg-none w-10 h-10'
-            onClick={handleIsMenuOpenClick}
+            className="rounded-full bg-red p-2"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
-            <img src={MenuIcon} alt='menu-icon' />
+            <img alt="menu-icon" src={MenuIcon} />
           </button>
         )}
 
         {/* MOBILE MENU POPUP */}
-        {!isAboveSmallScreen && isMenuOpen && (
-          <div
-            className='fixed flex flex-col right-0 bottom-0 h-full bg-blue w-[300px] gap-10 text-2xl'
-          >
+        {
+          !isAboveSmallScreen && isMenuOpen && (
+          <div className="fixed right-0 bottom-0 h-full bg-blue w-[300px]">
             {/* CLOSE ICON */}
-            <div className='flex justify-end pt-8 pr-8'>
-              <button
-                className='rounded-full border-2 p-2 bg-none w-10 h-10'
-                onClick={handleIsMenuOpenClick}
-              >
-                <img src={CloseIcon} alt='menu-icon' />
+            <div className="flex justify-end p-12">
+              <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
+                <img alt="close-icon" src={CloseIcon} />
               </button>
             </div>
 
-            {/* MENU LINKS */}
-            <div className='flex flex-col gap-10 text-center'>
-              {navNames.map((page, index) => (
-                <NavLinks
-                  key={index}
-                  page={page}
-                  selectedPage={selectedPage}
-                  setSelectedPage={setSelectedPage}
-                />
-              ))}
+            {/* MENU ITEMS */}
+            <div className="flex flex-col gap-10 ml-[33%] text-2xl text-deep-blue">
+              <Link
+                page="Home"
+                selectedPage={selectedPage}
+                setSelectedPage={setSelectedPage}
+              />
+              <Link
+                page="Skills"
+                selectedPage={selectedPage}
+                setSelectedPage={setSelectedPage}
+              />
+              <Link
+                page="Projects"
+                selectedPage={selectedPage}
+                setSelectedPage={setSelectedPage}
+              />
+              <Link
+                page="Testimonials"
+                selectedPage={selectedPage}
+                setSelectedPage={setSelectedPage}
+              />
+              <Link
+                page="Contact"
+                selectedPage={selectedPage}
+                setSelectedPage={setSelectedPage}
+              />
             </div>
           </div>
         )}
