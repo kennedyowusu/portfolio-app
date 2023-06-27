@@ -9,13 +9,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        red: "##DC4492",
-        blue: "#2CBCE9",
-        yellow: "#FDCC49",
-        grey: "#EDEDED",
         "deep-blue": "#010026",
+        blue: "#2CBCE9",
+        red: "#DC4492",
+        yellow: "#FDCC49",
+        grey: "#ededed",
         "dark-grey": "#757575",
-        "opaque-black": "rgba(0, 0, 0, 0.35)",
+        "opaque-black": "rgba(0,0,0,0.35)",
       },
       backgroundImage: () => ({
           "gradient-rainbow": "linear-gradient(81.66deg, #00B5EE 7.21%, #FF45A4 45.05%, #FFBA00 78.07%)",

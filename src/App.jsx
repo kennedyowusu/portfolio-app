@@ -3,7 +3,9 @@ import useMediaQuery from "./hooks/useMediaQuery"
 import Navbar from "./components/Navbar";
 import DotGroup from "./components/DotGroup";
 import HeroSection from "./components/HeroSection";
-import LineGradient from "./components/GradientSection";
+import { motion } from "framer-motion";
+import Divider from "./components/Divider";
+import Skills from "./components/Skills";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState('home')
@@ -39,7 +41,16 @@ function App() {
         }
         <HeroSection setIsTopOfPage={setSelectedPage} />
       </div>
-      <LineGradient />
+      <Divider />
+      <div className="w-5/6 mx-auto md:h-full ">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("skills")}
+        >
+          <Skills />
+        </motion.div>
+      </div>
     </div>
   )
 }
