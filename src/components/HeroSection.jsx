@@ -72,7 +72,7 @@ const HeroSection = ({ setSelectedPage }) => {
         >
           <AnchorLink
             className="rounded-md text-[#FFBA00] bg-[#FFFFFF] hover:bg-[#FFBA00] hover:text-[#FFFFFF] py-3 px-7 font-semibold
-              transition duration-500 xxs:text-sm xxs:py-2 xxs:px-4"
+              transition duration-500 xxs:text-sm xxs:py-2 xxs:px-4 ss:text-sm ss:py-4 ss:px-4"
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >
