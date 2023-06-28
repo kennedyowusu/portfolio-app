@@ -28,7 +28,7 @@ const Testimonials = () => {
       {/* TESTIMONIALS */}
       <div className="md:flex md:justify-between gap-8">
         <motion.div
-          className="mx-auto relative bg-blue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+          className="mx-auto relative bg-blue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48 xxs:mt-10
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 rounded-3xl"
           initial="hidden"
           whileInView="visible"
@@ -39,18 +39,16 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="font-playfair text-6xl">“</p>
-          <p className="text-center text-xl">
+          <p className="text-center text-xl mb-12 xxs:text-center xxs:text-md">
             Exceptional web developer, delivering outstanding results with precision and creativity.
           </p>
-          <p className="font-playfair text-6xl text-right mb-4">“</p>
           <p className="font-semibold
             absolute bottom-0 right-0 mr-16 mb-16 text-xl uppercase
           ">Sosu Alfred</p>
         </motion.div>
 
         <motion.div
-          className="mx-auto relative bg-red max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+          className="mx-auto relative bg-red max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48 xxs:mt-10
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 rounded-3xl"
           initial="hidden"
           whileInView="visible"
@@ -61,11 +59,9 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-            <p className="font-playfair text-6xl">“</p>
-            <p className="text-center text-xl">
+            <p className="text-center text-xl mb-12 xxs:text-center xxs:text-md">
               Exemplary Flutter developer. Transformed our online presence with impeccable expertise.
             </p>
-            <p className="font-playfair text-6xl text-right mb-4">“</p>
             <p className="font-semibold
               absolute bottom-0 right-0 mr-16 mb-16 text-xl uppercase
             ">
@@ -73,7 +69,7 @@ const Testimonials = () => {
         </motion.div>
 
         <motion.div
-          className="mx-auto relative bg-yellow max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+          className="mx-auto relative bg-yellow max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48 xxs:mt-10
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 rounded-3xl"
           initial="hidden"
           whileInView="visible"
@@ -84,11 +80,9 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="font-playfair text-6xl">“</p>
-          <p className="text-center text-xl">
+          <p className="text-center text-xl mb-12 xxs:text-center xxs:text-md">
             A talented web developer who delivers exceptional results with precision.
           </p>
-          <p className="font-playfair text-6xl text-right mb-4">“</p>
           <p className="font-semibold
             absolute bottom-0 right-0 mr-16 mb-16 text-xl uppercase
           ">tarik bouari</p>

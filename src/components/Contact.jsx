@@ -55,7 +55,7 @@ const Contact = () => {
           className="basis-1/2 flex justify-center"
         >
           <p
-            className="text-lg text-center md:text-center lg:text-left"
+            className="text-lg text-center md:text-center lg:text-left xxs:text-md xxs:text-justify"
           >
             Feel free to reach out to me for any inquiries or collaboration opportunities. I am eager to connect with you and discuss how I can contribute to your software development needs. Please use the provided contact information or fill out the contact form, and I will get back to you promptly. Let&apos;s bring your ideas to life together!
           </p>

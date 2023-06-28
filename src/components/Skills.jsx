@@ -64,7 +64,7 @@ const Skills = () => {
         >
           <div className="relative h-32">
             <div className="z-10">
-              <p className="font-playfair font-semibold text-5xl">01</p>
+              <p className="font-playfair font-semibold text-5xl sm:text-3xl md:text-3xl lg:text-3xl">01</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
                   Mobile Developer - <span className="text-yellow font-semibold"> Flutter</span>
               </p>

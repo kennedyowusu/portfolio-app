@@ -52,8 +52,8 @@ const HeroSection = ({ setSelectedPage }) => {
             </span>
           </p>
 
-          <p className="mt-10 mb-7 text-sm md:text-justify text-center">
-            As a software developer, I leverage my coding expertise and problem - solving skills to design, debug, test, and collaborate on innovative solutions.I excel in analyzing, documenting, optimizing, and maintaining software systems
+          <p className="mt-10 mb-7 text-sm md:text-justify text-center xxs:text-md xxs:text-justify">
+            As a software developer, I leverage my coding expertise and problem - solving skills to design, debug, test, and collaborate on innovative solutions. I excel in analyzing, documenting, optimizing, and maintaining software systems
             while continuously learning and adapting to enhance their implementation, deployment, and iteration.
           </p>
         </motion.div>
@@ -72,7 +72,7 @@ const HeroSection = ({ setSelectedPage }) => {
         >
           <AnchorLink
             className="rounded-md text-[#FFBA00] bg-[#FFFFFF] hover:bg-[#FFBA00] hover:text-[#FFFFFF] py-3 px-7 font-semibold
-              transition duration-500"
+              transition duration-500 xxs:text-sm xxs:py-2 xxs:px-4"
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >

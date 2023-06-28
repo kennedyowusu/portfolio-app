@@ -51,7 +51,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <p className="mt-10 mb-10 w-full">
+        <p className="mt-10 mb-10 w-full xxs:text-md xxs:text-justify">
           Welcome to my portfolio of projects! Here, you will find a curated collection of my work that showcases my skills and expertise as a software developer. Each project has been carefully crafted with attention to detail and a focus on delivering exceptional results. From mobile applications built with Flutter to dynamic web experiences developed with React.js and robust backend solutions using Ruby, this portfolio represents the breadth and depth of my capabilities. I invite you to explore these projects and witness the innovation and craftsmanship that goes into each one. Feel free to reach out with any inquiries or feedback. Enjoy your journey through my portfolio of work!
         </p>
       </motion.div>
@@ -76,8 +76,8 @@ const Projects = () => {
           <motion.div variants={projectVariant} className="relative">
             <div className={overlayStyle}>
               <a href="https://progress2002.github.io/LuxoPremier/dist/">
-                <p className="text-2xl font-playfair uppercase">LuxoPremier Web App</p>
-                <p className="mt-7">
+                <p className="text-2xl font-playfair uppercase xxs:text-sm xxs:font-bold">LuxoPremier Web App</p>
+                <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px]">
                   LuxoPremier is a website that shows you all the latest Tv - shows, you can browse, like, and comment on your favorites.
                 </p>
               </a>
@@ -91,8 +91,8 @@ const Projects = () => {
               target='_blank'
               rel='noreferrer'
               >
-              <p className="text-2xl font-playfair uppercase">Rent A Ride</p>
-              <p className="mt-7">
+              <p className="text-2xl font-playfair uppercase xxs:text-sm xxs:font-bold">Rent A Ride</p>
+              <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px]">
                 The go - to car rental app that helps you Discover a wide range of vehicles
                 for rent, from compact cars to luxury sedans, available at your convenience.
               </p>
@@ -110,8 +110,8 @@ const Projects = () => {
                 target='_blank'
                 rel='noreferrer'
               >
-                <p className="text-2xl font-playfair uppercase">All Countries Web App</p>
-                <p className="mt-7">
+                <p className="text-2xl font-playfair uppercase xxs:text-sm xxs:font-bold">All Countries Web App</p>
+                <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px]">
                   Metric Web App is a react-based responsive web application that allows users to view countries.
                 </p>
               </a>
@@ -125,9 +125,9 @@ const Projects = () => {
                 target='_blank'
                 rel='noreferrer'
               >
-              <p className="text-2xl font-playfair uppercase">Math Magician App</p>
+              <p className="text-2xl font-playfair uppercase xxs:text-sm xxs:font-bold">Math Magician App</p>
 
-              <p className="mt-7">
+              <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px]">
                 A web app that allows a user to make simple calculations and also can read a random math - related quote.
               </p>
 
@@ -142,8 +142,8 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-              <p className="text-2xl font-playfair uppercase">Evolve Forum App</p>
-              <p className="mt-7">
+              <p className="text-2xl font-playfair uppercase xxs:text-sm xxs:font-bold">Evolve Forum App</p>
+              <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px]">
                 A forum based web app that allows users to create topics and comment on them.
               </p>
 
@@ -158,8 +158,8 @@ const Projects = () => {
               target='_blank'
               rel='noreferrer'
               >
-                <p className="text-2xl font-playfair uppercase">Space Travelers App</p>
-                <p className="mt-7">
+                <p className="text-2xl font-playfair uppercase xxs:text-sm xxs:font-bold">Space Travelers App</p>
+                <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px]">
                   The application allows users to book rockets and join selected space missions.
                 </p>
               </a>
@@ -174,8 +174,8 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <p className="text-2xl font-playfair uppercase">KEFI BOOKING HOTEL</p>
-                <p className="mt-7">
+                <p className="text-2xl font-playfair uppercase xxs:text-sm xxs:font-bold">KEFI BOOKING HOTEL</p>
+                <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px]">
                   A web app that takes data from the backend created with ruby on rails by getting the data through api.
                 </p>
               </a>
