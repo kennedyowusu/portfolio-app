@@ -7,7 +7,7 @@ const Skills = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
 
   return (
-    <section id="skills" className="pt-10 pb-24">
+    <section id="skills" className="pt-10 pb-24 mt-[-36px]">
       {/* HEADER AND IMAGE SECTION */}
       <div className="md:flex md:justify-between md:gap-16 mt-32">
         <motion.div
@@ -65,12 +65,12 @@ const Skills = () => {
           <div className="relative h-32">
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl sm:text-3xl md:text-3xl lg:text-3xl">01</p>
-              <p className="font-playfair font-semibold text-3xl mt-3">
+              <p className="font-playfair font-semibold text-3xl mt-3 xs:text-2xl">
                   Mobile Developer - <span className="text-yellow font-semibold"> Flutter</span>
               </p>
             </div>
           </div>
-          <p className="mt-5 text-justify">
+          <p className="mt-5 text-justify xs:mt-[-5px]">
             As a skilled Flutter Developer, I create high - quality cross - platform mobile apps with a focus on performance and user experience.Proficient in Flutter and Dart, I deliver visually appealing solutions using best practices.
           </p>
         </motion.div>
@@ -90,12 +90,12 @@ const Skills = () => {
           <div className="relative h-32">
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">02</p>
-              <p className="font-playfair font-semibold text-3xl mt-3">
+              <p className="font-playfair font-semibold text-3xl mt-3 xs:text-2xl">
                 Frontend Developer - <span className="text-yellow font-semibold"> React JS</span>
               </p>
             </div>
           </div>
-          <p className="mt-5 text-justify">
+          <p className="mt-5 text-justify xs:mt-[-5px]">
             As an experienced React.js Developer, I craft performant and user - centric web applications with a keen eye
             for quality.Proficient in React.js, I deliver visually engaging solutions using industry best practices.
           </p>
@@ -115,12 +115,12 @@ const Skills = () => {
           <div className="relative h-32">
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">03</p>
-              <p className="font-playfair font-semibold text-3xl mt-3">
+              <p className="font-playfair font-semibold text-3xl mt-3 xs:text-2xl">
                 Backend Developer - <span className="text-yellow font-semibold"> Ruby</span>
               </p>
             </div>
           </div>
-          <p className="mt-5 text-justify">
+          <p className="mt-5 text-justify xs:mt-[-5px]">
             As a proficient Ruby Developer, I create high - quality backend solutions with a focus on efficiency and reliability.With a strong command of Ruby and associated frameworks, I deliver robust and scalable applications following industry best practices.
           </p>
         </motion.div>

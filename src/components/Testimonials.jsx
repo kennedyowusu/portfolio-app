@@ -20,7 +20,7 @@ const Testimonials = () => {
           <span className="text-[#FFBA00]">TESTI</span> MONIALS
         </p>
         <Divider width="mx-auto w-2/5" />
-        <p className="mt-10 mb-[-8em]">
+        <p className="mt-10 mb-[-8em] xs:mb-10">
           Discover what clients and colleagues have to say about the quality and impact of my work.
         </p>
       </motion.div>
@@ -39,7 +39,7 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="text-center text-xl mb-12 xxs:text-center xxs:text-md">
+          <p className="text-center text-xl mb-12 xxs:text-center xxs:text-md xs:text-center">
             Exceptional web developer, delivering outstanding results with precision and creativity.
           </p>
           <p className="font-semibold
@@ -59,7 +59,7 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-            <p className="text-center text-xl mb-12 xxs:text-center xxs:text-md">
+            <p className="text-center text-xl mb-12 xxs:text-center xxs:text-md xs:text-center">
               Exemplary Flutter developer. Transformed our online presence with impeccable expertise.
             </p>
             <p className="font-semibold
@@ -80,7 +80,7 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="text-center text-xl mb-12 xxs:text-center xxs:text-md">
+          <p className="text-center text-xl mb-12 xxs:text-center xxs:text-md xs:text-center">
             A talented web developer who delivers exceptional results with precision.
           </p>
           <p className="font-semibold
