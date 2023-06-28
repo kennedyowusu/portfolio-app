@@ -12,10 +12,13 @@
   box-sizing: border-box;
 }
 
-html, body, #root.app {
+html,
+body,
+#root.app {
   font-family: 'Roboto', sans-serif;
   background-color: #010026;
-  @apply text-white
+
+  @apply text-white;
 }
 
 
