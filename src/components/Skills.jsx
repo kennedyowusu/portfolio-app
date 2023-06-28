@@ -69,7 +69,6 @@ const Skills = () => {
                   Mobile Developer - <span className="text-yellow font-semibold"> Flutter</span>
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5 text-justify">
             As a skilled Flutter Developer, I create high - quality cross - platform mobile apps with a focus on performance and user experience.Proficient in Flutter and Dart, I deliver visually appealing solutions using best practices.
@@ -95,7 +94,6 @@ const Skills = () => {
                 Frontend Developer - <span className="text-yellow font-semibold"> React JS</span>
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5 text-justify">
             As an experienced React.js Developer, I craft performant and user - centric web applications with a keen eye
@@ -121,7 +119,6 @@ const Skills = () => {
                 Backend Developer - <span className="text-yellow font-semibold"> Ruby</span>
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5 text-justify">
             As a proficient Ruby Developer, I create high - quality backend solutions with a focus on efficiency and reliability.With a strong command of Ruby and associated frameworks, I deliver robust and scalable applications following industry best practices.

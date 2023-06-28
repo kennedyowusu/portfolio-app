@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import PropTypes from 'prop-types'
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
-// import ProfileImage from "../assets/kennedy.png";
 import SocialMediaIcons from './SocialMediaIcons';
 
 const HeroSection = ({ setSelectedPage }) => {
@@ -18,15 +17,15 @@ const HeroSection = ({ setSelectedPage }) => {
         {isAboveLarge ? (
           <div
             className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-t-[400px]
-            before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-blue before:z-[-1]"
+            before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-blue before:z-[-1] before:filter before:saturate-0 before:transition before:duration-500 border-solid border-2 border-white w-56 h-72 max-w-[400px] md:max-w-[600px]"
           >
             <div
-              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-56 h-72 max-w-[400px] md:max-w-[600px]"
+              className="hover:filter hover:saturate-200 transition duration-500 z-10 border-5 w-56 h-72 max-w-[400px] md:max-w-[600px]"
             ></div>
           </div>
         ) : (
             <div
-              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
+              className="hover:filter hover:saturate-200 transition duration-500 z-10 border-5 w-full max-w-[400px] md:max-w-[600px]"
             ></div>
         )}
     </div>

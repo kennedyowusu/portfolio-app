@@ -1,7 +1,6 @@
 import Divider from "../components/Divider";
 import { motion } from "framer-motion";
 import PropTypes from 'prop-types'
-// import Project from "./Project";
 import KefiHotel from "../assets/kefi.png";
 import CarRental from "../assets/car-rental.png";
 import Countries from "../assets/countries.png";
@@ -28,8 +27,6 @@ const Projects = () => {
 
   const overlayStyle = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
-
-  // const projectTitle = title.split(" ").join("-").toLowerCase();
 
   return (
     <section id="projects" className="py-24">
