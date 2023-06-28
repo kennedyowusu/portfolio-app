@@ -16,7 +16,7 @@ const SocialMediaIcons = () => {
       </a>
       <a
         className='hover:opacity-50 transition duration-500'
-        href='https://www.linkedin.com'
+        href='https://www.linkedin.com/in/kennedy-owusu/'
         target='_blank'
         rel='noreferrer'
       >
@@ -24,7 +24,7 @@ const SocialMediaIcons = () => {
       </a>
       <a
         className='hover:opacity-50 transition duration-500'
-        href='https://www.twitter.com'
+        href='https://twitter.com/_iamkobby'
         target='_blank'
         rel='noreferrer'
       >
@@ -32,7 +32,7 @@ const SocialMediaIcons = () => {
       </a>
       <a
         className='hover:opacity-50 transition duration-500'
-        href='https://www.facebook.com'
+        href='https://www.facebook.com/Kennediowusu/'
         target='_blank'
         rel='noreferrer'
       >

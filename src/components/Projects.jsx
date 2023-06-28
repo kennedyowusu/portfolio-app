@@ -29,7 +29,7 @@ const Projects = () => {
       >
         <div>
           <p className="font-playfair font-semibold text-4xl">
-            <span className="text-red">PRO</span>JECTS
+            <span className="text-[#FFBA00]">PRO</span>JECTS
           </p>
           <div className="flex justify-center mt-5">
             <Divider width="w-2/3" />

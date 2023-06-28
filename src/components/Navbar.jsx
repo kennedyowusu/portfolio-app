@@ -19,7 +19,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   return (
     <nav className={` ${navbarBackground} z-40 w-full fixed top-0 py-6`}>
       <div className='container mx-auto flex justify-between items-center w-5/6'>
-        <h4 className='font-playfair text-3xl font-bold'>K.O</h4>
+        <h4 className='font-playfair text-3xl font-bold'>KO</h4>
 
         {/* DESKTOP NAV */}
         {isAboveSmallScreen ? (

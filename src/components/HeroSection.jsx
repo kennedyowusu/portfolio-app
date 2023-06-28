@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import PropTypes from 'prop-types'
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
-import ProfileImage from "../assets/profile-image.png";
+// import ProfileImage from "../assets/kennedy.png";
 import SocialMediaIcons from './SocialMediaIcons';
 
 const HeroSection = ({ setSelectedPage }) => {
@@ -20,18 +20,14 @@ const HeroSection = ({ setSelectedPage }) => {
             className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-t-[400px]
             before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-blue before:z-[-1]"
           >
-            <img
-              alt="profile"
-              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
-              src={ProfileImage}
-            />
+            <div
+              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-56 h-72 max-w-[400px] md:max-w-[600px]"
+            ></div>
           </div>
         ) : (
-          <img
-            alt="profile"
-            className="z-10 w-full max-w-[400px] md:max-w-[600px]"
-            src={ProfileImage}
-          />
+            <div
+              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
+            ></div>
         )}
     </div>
 
@@ -48,18 +44,18 @@ const HeroSection = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-4xl font-playfair z-10 text-center md:text-start">
-            Kennedy {""}
+          <p className="text-4xl font-playfair z-10 text-center md:text-start font-semibold">
+            KENNEDY {""}
             <span
-              className=" font-playfair z-10 text-center md:text-start text-yellow"
+              className=" font-playfair z-10 text-center md:text-start text-yellow font-semibold"
             >
-              Owusu
+              OWUSU
             </span>
           </p>
 
-          <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Adipiscing arcu, in aliquam fringilla cursus. Elit arcu elementum
-            viverra malesuada sem ac faucibus dolor. Sagittis scelerisque.
+          <p className="mt-10 mb-7 text-sm md:text-justify text-center">
+            As a software developer, I leverage my coding expertise and problem - solving skills to design, debug, test, and collaborate on innovative solutions.I excel in analyzing, documenting, optimizing, and maintaining software systems
+            while continuously learning and adapting to enhance their implementation, deployment, and iteration.
           </p>
         </motion.div>
 
@@ -88,8 +84,8 @@ const HeroSection = ({ setSelectedPage }) => {
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >
-            <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
-              let talk
+            <div className="bg-deep-blue hover:text-[#F4FFFD] transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair font-semibold">
+              Let&apos;s Talk
             </div>
           </AnchorLink>
         </motion.div>
