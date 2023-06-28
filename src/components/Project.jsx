@@ -1,5 +1,5 @@
 import {
- motion
+  motion
 } from "framer-motion";
 import PropTypes from 'prop-types'
 
@@ -29,8 +29,8 @@ const Project = ({ title, subtitle }) => {
 };
 
 Project.propTypes = {
- title: PropTypes.string.isRequired,
- subtitle: PropTypes.string.isRequired
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired
 }
 
 export default Project;
