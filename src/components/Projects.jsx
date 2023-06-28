@@ -32,7 +32,7 @@ const Projects = () => {
     <section id="projects" className="py-24">
       {/* HEADINGS */}
       <motion.div
-        className="md:w-2/5 mx-auto text-center"
+        className="mx-auto text-center md:w-full"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
@@ -51,7 +51,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <p className="mt-10 mb-10 w-full xxs:text-md xxs:text-justify">
+        <p className="mt-10 mb-10 w-full xxs:text-md xxs:text-justify md:w-full md:text-start">
           Welcome to my portfolio of projects! Here, you will find a curated collection of my work that showcases my skills and expertise as a software developer. Each project has been carefully crafted with attention to detail and a focus on delivering exceptional results. From mobile applications built with Flutter to dynamic web experiences developed with React.js and robust backend solutions using Ruby, this portfolio represents the breadth and depth of my capabilities. I invite you to explore these projects and witness the innovation and craftsmanship that goes into each one. Feel free to reach out with any inquiries or feedback. Enjoy your journey through my portfolio of work!
         </p>
       </motion.div>

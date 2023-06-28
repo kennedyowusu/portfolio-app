@@ -7,11 +7,11 @@ const Skills = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
 
   return (
-    <section id="skills" className="pt-10 pb-24 mt-[-36px]">
+    <section id="skills" className="pt-10 pb-24 mt-[-36px] md:w-full">
       {/* HEADER AND IMAGE SECTION */}
       <div className="md:flex md:justify-between md:gap-16 mt-32">
         <motion.div
-          className="md:w-1/3"
+          className="md:w-1/2"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -25,12 +25,12 @@ const Skills = () => {
             MY <span className="text-[#FFBA00]">SKILLS</span>
           </p>
           <Divider width="w-1/3" />
-          <p className="mt-10 mb-7 text-justify">
+          <p className="mt-10 mb-7 text-start">
             I excel in cross - cultural collaboration, Test - Driven Development, and intuitive user interface design. Dedicated to continuous learning and staying up - to - date, I deliver cutting - edge, user - friendly applications.
           </p>
         </motion.div>
 
-        <div className="mt-16 md:mt-0">
+        <div className="mt-16 md:mt-10">
           {isAboveLarge ? (
             <div
               className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
@@ -52,7 +52,7 @@ const Skills = () => {
       <div className="md:flex md:justify-between mt-16 gap-32">
         {/* EXPERIENCE */}
         <motion.div
-          className="md:w-1/3 mt-10"
+          className="md:w-1/2 mt-5"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -71,13 +71,13 @@ const Skills = () => {
             </div>
           </div>
           <p className="mt-5 text-justify xs:mt-[-5px]">
-            As a skilled Flutter Developer, I create high - quality cross - platform mobile apps with a focus on performance and user experience.Proficient in Flutter and Dart, I deliver visually appealing solutions using best practices.
+            I create high - quality cross - platform mobile apps with a focus on performance and user experience.Proficient in Flutter and Dart, I deliver visually appealing solutions using best practices.
           </p>
         </motion.div>
 
         {/* INNOVATIVE */}
         <motion.div
-          className="md:w-1/3 mt-10"
+          className="md:w-1/2 mt-5"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -91,18 +91,18 @@ const Skills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">02</p>
               <p className="font-playfair font-semibold text-3xl mt-3 xs:text-2xl">
-                Frontend Developer - <span className="text-yellow font-semibold"> React JS</span>
+                Frontend Developer - <span className="text-yellow font-semibold"> React</span>
               </p>
             </div>
           </div>
-          <p className="mt-5 text-justify xs:mt-[-5px]">
-            As an experienced React.js Developer, I craft performant and user - centric web applications with a keen eye
+          <p className="mt-5 text-justify xs:mt-[-5px]  md:mt-[5px]">
+            I craft performant and user - centric web applications with a keen eye
             for quality.Proficient in React.js, I deliver visually engaging solutions using industry best practices.
           </p>
         </motion.div>
         {/* IMAGINATIVE */}
         <motion.div
-          className="md:w-1/3 mt-10"
+          className="md:w-1/2 mt-5"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -120,8 +120,8 @@ const Skills = () => {
               </p>
             </div>
           </div>
-          <p className="mt-5 text-justify xs:mt-[-5px]">
-            As a proficient Ruby Developer, I create high - quality backend solutions with a focus on efficiency and reliability.With a strong command of Ruby and associated frameworks, I deliver robust and scalable applications following industry best practices.
+          <p className="mt-5 text-justify xs:mt-[-5px]  md:mt-[5px]">
+            I create high - quality backend solutions with a focus on efficiency and reliability.With a strong command of Ruby and associated frameworks.
           </p>
         </motion.div>
       </div>

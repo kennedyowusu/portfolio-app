@@ -39,7 +39,7 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="text-center text-xl mb-12 xxs:text-center xxs:text-md xs:text-center">
+          <p className="text-center text-xl mb-12 xxs:text-center xxs:text-md xs:text-center md:text-[16px] md:text-center">
             Exceptional web developer, delivering outstanding results with precision and creativity.
           </p>
           <p className="font-semibold
@@ -59,13 +59,13 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-            <p className="text-center text-xl mb-12 xxs:text-center xxs:text-md xs:text-center">
+            <p className="text-center text-xl mb-12 xxs:text-center xxs:text-md xs:text-center md:text-[16px] md:text-center">
               Exemplary Flutter developer. Transformed our online presence with impeccable expertise.
             </p>
             <p className="font-semibold
               absolute bottom-0 right-0 mr-16 mb-16 text-xl uppercase
             ">
-            Pray Eddy SHIMWA</p>
+            Pray shimwa</p>
         </motion.div>
 
         <motion.div
@@ -80,7 +80,7 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="text-center text-xl mb-12 xxs:text-center xxs:text-md xs:text-center">
+          <p className="text-center text-xl mb-12 xxs:text-center xxs:text-md xs:text-center md:text-[16px] md:text-center">
             A talented web developer who delivers exceptional results with precision.
           </p>
           <p className="font-semibold

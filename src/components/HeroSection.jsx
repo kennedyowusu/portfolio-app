@@ -43,7 +43,7 @@ const HeroSection = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-4xl font-playfair z-10 text-center md:text-start font-semibold">
+          <p className="text-4xl font-playfair z-10 text-center md:text-start font-semibold md:w-full">
             KENNEDY {""}
             <span
               className=" font-playfair z-10 text-center md:text-start text-yellow font-semibold"
