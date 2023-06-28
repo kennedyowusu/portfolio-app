@@ -59,7 +59,7 @@ const Projects = () => {
       {/* PROJECTS */}
       <div className="flex justify-center">
         <motion.div
-          className="sm:grid sm:grid-cols-3 gap-10 w-11/12 mx-auto"
+          className="sm:grid sm:grid-cols-3 gap-10 sm:gap-4 w-11/12 mx-auto sm:w-full sm:mx-auto"
           variants={container}
           initial="hidden"
           whileInView="visible"
@@ -77,7 +77,7 @@ const Projects = () => {
             <div className={overlayStyle}>
               <a href="https://progress2002.github.io/LuxoPremier/dist/">
                 <p className="text-2xl font-playfair uppercase xxs:text-sm xxs:font-bold">LuxoPremier Web App</p>
-                <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px]">
+                <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px] sm:text-xs sm:text-center sm:text-clip">
                   LuxoPremier is a website that shows you all the latest Tv - shows, you can browse, like, and comment on your favorites.
                 </p>
               </a>
@@ -92,9 +92,9 @@ const Projects = () => {
               rel='noreferrer'
               >
               <p className="text-2xl font-playfair uppercase xxs:text-sm xxs:font-bold">Rent A Ride</p>
-              <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px]">
+              <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px] sm:text-xs sm:text-center sm:text-clip">
                 The go - to car rental app that helps you Discover a wide range of vehicles
-                for rent, from compact cars to luxury sedans, available at your convenience.
+                for rent - available at your convenience.
               </p>
             </a>
             </div>
@@ -111,7 +111,7 @@ const Projects = () => {
                 rel='noreferrer'
               >
                 <p className="text-2xl font-playfair uppercase xxs:text-sm xxs:font-bold">All Countries Web App</p>
-                <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px]">
+                <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px] sm:text-xs sm:text-center sm:text-clip">
                   Metric Web App is a react-based responsive web application that allows users to view countries.
                 </p>
               </a>
@@ -127,8 +127,8 @@ const Projects = () => {
               >
               <p className="text-2xl font-playfair uppercase xxs:text-sm xxs:font-bold">Math Magician App</p>
 
-              <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px]">
-                A web app that allows a user to make simple calculations and also can read a random math - related quote.
+              <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px] sm:text-xs sm:text-center sm:text-clip">
+                A web app that allows a user to make simple calculations and also can read a random math.
               </p>
 
               </a>
@@ -143,7 +143,7 @@ const Projects = () => {
                 rel="noreferrer"
               >
               <p className="text-2xl font-playfair uppercase xxs:text-sm xxs:font-bold">Evolve Forum App</p>
-              <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px]">
+              <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px] sm:text-xs sm:text-center sm:text-clip">
                 A forum based web app that allows users to create topics and comment on them.
               </p>
 
@@ -159,7 +159,7 @@ const Projects = () => {
               rel='noreferrer'
               >
                 <p className="text-2xl font-playfair uppercase xxs:text-sm xxs:font-bold">Space Travelers App</p>
-                <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px]">
+                <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px] sm:text-xs sm:text-center sm:text-clip">
                   The application allows users to book rockets and join selected space missions.
                 </p>
               </a>
@@ -175,7 +175,7 @@ const Projects = () => {
                 rel="noreferrer"
               >
                 <p className="text-2xl font-playfair uppercase xxs:text-sm xxs:font-bold">KEFI BOOKING HOTEL</p>
-                <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px]">
+                <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px] sm:text-xs sm:text-center sm:text-clip">
                   A web app that takes data from the backend created with ruby on rails by getting the data through api.
                 </p>
               </a>
