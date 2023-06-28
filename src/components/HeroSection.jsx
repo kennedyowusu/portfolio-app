@@ -72,22 +72,24 @@ const HeroSection = ({ setSelectedPage }) => {
           }}
         >
           <AnchorLink
-            className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
-              hover:bg-blue hover:text-white transition duration-500"
+            className="rounded-md text-[#FFBA00] bg-[#FFFFFF] hover:bg-[#FFBA00] hover:text-[#FFFFFF] py-3 px-7 font-semibold
+              transition duration-500"
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >
             Contact Me
           </AnchorLink>
+
           <AnchorLink
-            className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
+            className=" bg-[#FFBA00] py-0.5 pr-0.5 ml-6 rounded-md font-semibold hover:bg-[#FFFFFF] hover:text-[#FFBA00] transition duration-500"
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >
-            <div className="bg-deep-blue hover:text-[#F4FFFD] transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair font-semibold">
+            <div className="w-full h-full flex items-center justify-center px-10 font-playfair font-semibold">
               Let&apos;s Talk
             </div>
           </AnchorLink>
+
         </motion.div>
 
         <motion.div

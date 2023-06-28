@@ -26,7 +26,7 @@ const Skills = () => {
           </p>
           <Divider width="w-1/3" />
           <p className="mt-10 mb-7 text-justify">
-            I excel in cross - cultural collaboration, Test - Driven Development, and intuitive user interface design.Dedicated to continuous learning and staying up - to - date, I deliver cutting - edge, user - friendly applications.
+            I excel in cross - cultural collaboration, Test - Driven Development, and intuitive user interface design. Dedicated to continuous learning and staying up - to - date, I deliver cutting - edge, user - friendly applications.
           </p>
         </motion.div>
 

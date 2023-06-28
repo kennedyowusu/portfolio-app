@@ -16,13 +16,12 @@ const Testimonials = () => {
           visible: { opacity: 1, x: 0 },
         }}
       >
-        <p className="font-playfair font-semibold text-4xl mb-5 text-[#FFBA00]">
-          TESTIMONIALS
+        <p className="font-playfair font-semibold text-4xl mb-5">
+          <span className="text-[#FFBA00]">TESTI</span> MONIALS
         </p>
         <Divider width="mx-auto w-2/5" />
         <p className="mt-10">
-          Heres What People are Saying About My Work. Aliquam aliquet integer
-          ut fames odio in at. At magna ornare dictum lectus.
+          Discover what clients and colleagues have to say about the quality and impact of my work.
         </p>
       </motion.div>
 

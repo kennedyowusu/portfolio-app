@@ -82,8 +82,8 @@ const Projects = () => {
 };
 
 Projects.propTypes = {
- title: PropTypes.string,
- subtitle: PropTypes.string
+  title: PropTypes.string,
+  subtitle: PropTypes.string
 }
 
 export default Projects;

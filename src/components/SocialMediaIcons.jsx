@@ -2,6 +2,7 @@ import Facebook from '../assets/facebook.png'
 import LinkedIn from '../assets/linkedin.png'
 import Twitter from '../assets/twitter.png'
 import GitHub from '../assets/github-image.png'
+import EmailIcon from "../assets/email.png";
 
 const SocialMediaIcons = () => {
   return (
@@ -12,7 +13,7 @@ const SocialMediaIcons = () => {
         target='_blank'
         rel='noreferrer'
       >
-        <img alt='GitHub' src={GitHub} className='w-7 h-7' />
+        <img alt='GitHub Icon' src={GitHub} className='w-7 h-7' />
       </a>
       <a
         className='hover:opacity-50 transition duration-500'
@@ -20,7 +21,7 @@ const SocialMediaIcons = () => {
         target='_blank'
         rel='noreferrer'
       >
-        <img alt='linkedin-link' src={LinkedIn} className='h-7 w-7' />
+        <img alt='Linkedin-Icon' src={LinkedIn} className='h-7 w-7' />
       </a>
       <a
         className='hover:opacity-50 transition duration-500'
@@ -28,7 +29,7 @@ const SocialMediaIcons = () => {
         target='_blank'
         rel='noreferrer'
       >
-        <img alt='twitter-link' src={Twitter} className='w-7 h-7' />
+        <img alt='Twitter-Icon' src={Twitter} className='w-7 h-7' />
       </a>
       <a
         className='hover:opacity-50 transition duration-500'
@@ -36,7 +37,18 @@ const SocialMediaIcons = () => {
         target='_blank'
         rel='noreferrer'
       >
-        <img alt='facebook-link' src={Facebook} className='w-7 h-7' />
+        <img alt='Facebook-Icon' src={Facebook} className='w-7 h-7' />
+      </a>
+
+      <a href="mailto:kennediowusu@gmail.com"
+        className='hover:opacity-50 transition duration-500'
+        rel='noreferrer'
+      >
+        <img
+          className="w-7 h-7"
+          src={EmailIcon}
+          alt="Email Icon"
+        />
       </a>
 
     </div>

@@ -1,7 +1,6 @@
 import Divider from "../components/Divider";
 import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
-import ContactImage from '../assets/contact-image.jpeg'
 
 const Contact = () => {
   const {
@@ -55,7 +54,12 @@ const Contact = () => {
           }}
           className="basis-1/2 flex justify-center"
         >
-          <img src={ContactImage} alt="contact" />
+          <p
+            className="text-lg text-center md:text-center lg:text-left"
+          >
+            Feel free to reach out to me for any inquiries or collaboration opportunities. I am eager to connect with you and discuss how I can contribute to your software development needs. Please use the provided contact information or fill out the contact form, and I will get back to you promptly. Let&apos;s bring your ideas to life together!
+          </p>
+
         </motion.div>
 
         <motion.div
