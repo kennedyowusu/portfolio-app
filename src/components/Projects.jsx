@@ -164,8 +164,7 @@ const Projects = () => {
               >
               <p className="text-2xl font-playfair uppercase xxs:text-sm xxs:font-bold">Kenzie Hotel App</p>
               <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px] sm:text-xs sm:text-center sm:text-clip">
-                Welcome to Kenzie Hotel, where luxury meets comfort.Our hotel is dedicated to providing a memorable and delightful experience
-                for our guests.
+                Welcome to Kenzie Hotel, where luxury meets comfort.
               </p>
 
               </a>
