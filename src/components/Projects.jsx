@@ -2,12 +2,11 @@ import Divider from "../components/Divider";
 import { motion } from "framer-motion";
 import PropTypes from 'prop-types'
 import KefiHotel from "../assets/kefi.png";
-import CarRental from "../assets/car-rental.png";
 import Countries from "../assets/countries.png";
 import Maths from "../assets/math.png";
-import Evolve from "../assets/evolve.png";
 import Space from "../assets/space.png";
 import LuxoPremier from "../assets/luxo.png";
+import HotelRoom from "../assets/hotel.png";
 
 const container = {
   hidden: {},
@@ -75,11 +74,22 @@ const Projects = () => {
 
           <motion.div variants={projectVariant} className="relative">
             <div className={overlayStyle}>
-              <a href="https://progress2002.github.io/LuxoPremier/dist/">
+              <a href="https://progress2002.github.io/LuxoPremier/dist/"
+                target='_blank'
+                rel='noreferrer'
+              >
                 <p className="text-2xl font-playfair uppercase xxs:text-sm xxs:font-bold">LuxoPremier Web App</p>
                 <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px] sm:text-xs sm:text-center sm:text-clip">
                   LuxoPremier is a website that shows you all the latest Tv - shows, you can browse, like, and comment on your favorites.
                 </p>
+              </a>
+
+              <a href="https://github.com/Progress2002/LuxoPremier"
+                target='_blank'
+                rel='noreferrer'
+                className="mt-10 text-sm font-semibold text-[#8B0023] uppercase"
+              >
+                GitHub Link
               </a>
             </div>
             <img src={LuxoPremier} alt="Kefi Hotel App" className="h-[250px] w-full" />
@@ -87,19 +97,27 @@ const Projects = () => {
 
           <motion.div variants={projectVariant} className="relative">
             <div className={overlayStyle}>
-              <a href="https://progress2002.github.io/LuxoPremier/dist/"
-              target='_blank'
-              rel='noreferrer'
+              <a href="https://math-magician-nine.vercel.app/"
+                target='_blank'
+                rel='noreferrer'
               >
-              <p className="text-2xl font-playfair uppercase xxs:text-sm xxs:font-bold">Rent A Ride</p>
-              <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px] sm:text-xs sm:text-center sm:text-clip">
-                The go - to car rental app that helps you Discover a wide range of vehicles
-                for rent - available at your convenience.
-              </p>
-            </a>
-            </div>
-            <img src={CarRental} alt="Car Rental App" className="h-[250px] w-full" />
+              <p className="text-2xl font-playfair uppercase xxs:text-sm xxs:font-bold">Math Magician App</p>
 
+              <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px] sm:text-xs sm:text-center sm:text-clip">
+                A web app that allows a user to make simple calculations and also can read a random math.
+              </p>
+
+              </a>
+
+              <a href="https://github.com/kennedyowusu/math_magician"
+                target='_blank'
+                rel='noreferrer'
+                className="mt-10 text-sm font-semibold text-[#8B0023] uppercase"
+              >
+                GitHub Link
+              </a>
+            </div>
+          <img src={Maths} alt="Project Four" className="h-[250px] w-full" />
           </motion.div>
 
           {/* ROW 2 */}
@@ -115,41 +133,54 @@ const Projects = () => {
                   Metric Web App is a react-based responsive web application that allows users to view countries.
                 </p>
               </a>
+
+              <a href="https://github.com/kennedyowusu/metrics-webapp"
+                target='_blank'
+                rel='noreferrer'
+                className="mt-10 text-sm font-semibold text-[#8B0023] uppercase"
+              >
+                GitHub Link
+              </a>
+
             </div>
           <img src={Countries} alt="Project Three" className="h-[250px] w-full" />
           </motion.div>
 
           <motion.div variants={projectVariant} className="relative">
-            <div className={overlayStyle}>
-              <a href="https://vercel.com/kennedyowusu/math-magician"
-                target='_blank'
-                rel='noreferrer'
-              >
-              <p className="text-2xl font-playfair uppercase xxs:text-sm xxs:font-bold">Math Magician App</p>
+            <div
+            className="flex justify-center text-center items-center p-10 bg-[#FFBD0C]
+              h-[250px] w-full text-2xl font-playfair font-semibold uppercase"
+          >
+            robust backend solutions
+          </div>
 
-              <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px] sm:text-xs sm:text-center sm:text-clip">
-                A web app that allows a user to make simple calculations and also can read a random math.
-              </p>
-
-              </a>
-            </div>
-          <img src={Maths} alt="Project Four" className="h-[250px] w-full" />
           </motion.div>
 
           <motion.div variants={projectVariant} className="relative">
             <div className={overlayStyle}>
-              <a href="https://github.com/kennedyowusu/forum_web"
+              <a href="https://hotel-application-h3ufdx747-kennedyowusu.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
-              <p className="text-2xl font-playfair uppercase xxs:text-sm xxs:font-bold">Evolve Forum App</p>
+              <p className="text-2xl font-playfair uppercase xxs:text-sm xxs:font-bold">Kenzie Hotel App</p>
               <p className="mt-7 xxs:text-md xxs:text-justify xxs:mt-[-0.2px] sm:text-xs sm:text-center sm:text-clip">
-                A forum based web app that allows users to create topics and comment on them.
+                Welcome to Kenzie Hotel, where luxury meets comfort.Our hotel is dedicated to providing a memorable and delightful experience
+                for our guests.
               </p>
 
-            </a>
+              </a>
+
+              <a href="https://github.com/kennedyowusu/hotel-application"
+                target='_blank'
+                rel='noreferrer'
+                className="mt-10 text-sm font-semibold text-[#8B0023] uppercase"
+              >
+                GitHub Link
+              </a>
+
+
             </div>
-          <img src={Evolve} alt="Project Five" className="h-[250px] w-full" />
+          <img src={HotelRoom} alt="Project Five" className="h-[250px] w-full uppercase" />
           </motion.div>
 
           <motion.div variants={projectVariant} className="relative">
@@ -163,14 +194,23 @@ const Projects = () => {
                   The application allows users to book rockets and join selected space missions.
                 </p>
               </a>
+
+              <a href="https://github.com/kennedyowusu/space-travellers-hub"
+                target='_blank'
+                rel='noreferrer'
+                className="mt-10 text-sm font-semibold text-[#8B0023] uppercase"
+              >
+                GitHub Link
+              </a>
+
             </div>
 
-            <img src={Space} alt="Project Six" className="h-[250px] w-full" />
+            <img src={Space} alt="Project Six" className="h-[250px] w-full uppercase" />
           </motion.div>
 
           <motion.div variants={projectVariant} className="relative">
             <div className={overlayStyle}>
-              <a href="https://github.com/felixDev22/Kefi-Hotel-App-Frontend"
+              <a href="https://kefi-hotel-booking.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -180,8 +220,16 @@ const Projects = () => {
                 </p>
               </a>
 
+
+              <a href="https://github.com/felixDev22/Kefi-Hotel-App-Frontend"
+                target='_blank'
+                rel='noreferrer'
+                className="mt-10 text-sm font-semibold text-[#8B0023] uppercase"
+              >
+                GitHub Link
+              </a>
             </div>
-              <img src={KefiHotel} alt="Kefi Hotel App" className="h-[250px] w-full" />
+              <img src={KefiHotel} alt="Kefi Hotel App" className="h-[250px] w-full uppercase" />
           </motion.div>
 
           <div
